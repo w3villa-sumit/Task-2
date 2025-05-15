@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 40px 20px;
+}
+
+.owl-carousel {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 30px 20px;
+  position: relative;
+  color: #333;
+  height:500px;
+  z-index:2;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.card .icon {
+  font-size: 80px;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.card p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.medium-text{
+  font-size: 20px;
+  color:#000;
+  margin-top:100px;
+}
+
+.small-text {
+  font-size: 30px;
+  color: #555;
+  margin-top: 50px;
+}
+
+.small-text span {
+  font-weight: bold;
+  color: #000;
+}
+
+.card.basic {
+  background: linear-gradient(to bottom, #0486e3, #ffffff 50%);
+  box-shadow: 2px 6px 10px #3cafff;
+  margin-bottom: 20px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.card.standard {
+  background: linear-gradient(to bottom, #8e0df7, #ffffff 50%);
+  box-shadow: 2px 6px 10px #a335ff;
+  /* margin:10px; */
+  
+}
+
+.card.premium {
+  background: linear-gradient(to bottom, #f30d88, #ffffff 50%);
+  box-shadow: 2px 6px 10px #ff3ca3;
+  /* margin:10px; */
+}
+
+/* Base button style */
+button,
+.btn {
+  background: #fff;
+  color: #333;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-weight: bold;
+  transition: 0.3s;
+  position: absolute;
+  bottom: -10px;
+  left: 30%;
+  width:170px;
+  height:50px;
+  margin-top: 20px;
+}
+
+/* Basic Button */
+.btn-basic {
+  background: white;
+  color: black;
+  box-shadow: 2px 6px 10px #3cafff;
+}
+
+
+/* Standard Button */
+.btn-standard {
+  background: white;
+  color: black;
+  box-shadow: 2px 6px 10px #a335ff;
+}
+
+
+/* Premium Button */
+.btn-premium {
+  background:white;
+  color: black;
+  box-shadow: 2px 6px 10px #ff3ca3;
+}
